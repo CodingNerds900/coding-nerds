@@ -1,0 +1,156 @@
+/* Reset some default browser styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+.nav-bar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-bar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-bar .menu {
+    list-style: none;
+}
+
+.nav-bar .menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-bar .menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the banner section */
+.banner {
+    background-image: url('your-banner-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner input[type="date"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner .book {
+    display: inline-block;
+    background-color: #FF5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Style the services section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.service-item {
+    text-align: center;
+}
+
+.service-item img {
+    max-width: 100px;
+}
+
+/* Style the places section */
+.places {
+    text-align: center;
+    padding: 50px;
+}
+
+.places h2 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+/* Style the cards in the places section */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+/* Style the about section */
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.about-img img {
+    max-width: 100%;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.links {
+    text-align: center;
+}
+
+.links h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links ul li {
+    margin: 5px 0;
+}
